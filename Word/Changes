@@ -1,0 +1,6 @@
+Revision history for Perl extension Harvey::Word.
+
+0.01  Mon Jan  7 17:34:22 2002
+	- original version; created by h2xs 1.21 with options
+		-X -A -n Harvey::Word
+
