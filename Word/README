@@ -1,5 +1,19 @@
-Harvey/Word version 1.01
+Harvey/Word version 1.02
 =======================
+
+INSTALLATION NOTES:  
+
+Version 1.02 comes with 3 modules: Word.pm, Verb.pm and Harvey.pm.
+Word makes word objects with informtion about the word.  Verb makes
+verb objects from sentences, which give information about the parsed
+verb structure in the sentence.  Harvey provides a simple dialog 
+routine to test and work with the parsings.  Install Word, then Verb 
+and then Harvey.
+
+With version 1.02, the Verb.pm module has been created which
+receives sentences in the form of arrays of Word objects and
+parses the verb.  A Harvey module has been sent along to test
+the functionality of the verb parser. 
 
 The Word.pm module is the first module of the Harvey series
 which will be a suite of modules for parsing English 

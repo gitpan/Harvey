@@ -49,9 +49,9 @@ AR_STATIC_ARGS = cr
 NAME = Harvey::Word
 DISTNAME = Harvey-Word
 NAME_SYM = Harvey_Word
-VERSION = 1.01
-VERSION_SYM = 1_01
-XS_VERSION = 1.01
+VERSION = 1.02
+VERSION_SYM = 1_02
+XS_VERSION = 1.02
 INST_BIN = blib/bin
 INST_EXE = blib/script
 INST_LIB = blib/lib
@@ -656,7 +656,7 @@ testdb_static :: testdb_dynamic
 # --- MakeMaker ppd section:
 # Creates a PPD (Perl Package Description) for a binary distribution.
 ppd:
-	@$(PERL) -e "print qq{<SOFTPKG NAME=\"Harvey-Word\" VERSION=\"1,01,0,0\">\n}. qq{\t<TITLE>Harvey-Word</TITLE>\n}. qq{\t<ABSTRACT>Perl extension for creating word objects</ABSTRACT>\n}. qq{\t<AUTHOR>Chris Meyer &lt;chris\@mytechs.com&gt;</AUTHOR>\n}. qq{\t<IMPLEMENTATION>\n}. qq{\t\t<OS NAME=\"$(OSNAME)\" />\n}. qq{\t\t<ARCHITECTURE NAME=\"i686-linux\" />\n}. qq{\t\t<CODEBASE HREF=\"\" />\n}. qq{\t</IMPLEMENTATION>\n}. qq{</SOFTPKG>\n}" > Harvey-Word.ppd
+	@$(PERL) -e "print qq{<SOFTPKG NAME=\"Harvey-Word\" VERSION=\"1,02,0,0\">\n}. qq{\t<TITLE>Harvey-Word</TITLE>\n}. qq{\t<ABSTRACT>Perl extension for creating word objects</ABSTRACT>\n}. qq{\t<AUTHOR>Chris Meyer &lt;chris\@mytechs.com&gt;</AUTHOR>\n}. qq{\t<IMPLEMENTATION>\n}. qq{\t\t<OS NAME=\"$(OSNAME)\" />\n}. qq{\t\t<ARCHITECTURE NAME=\"i686-linux\" />\n}. qq{\t\t<CODEBASE HREF=\"\" />\n}. qq{\t</IMPLEMENTATION>\n}. qq{</SOFTPKG>\n}" > Harvey-Word.ppd
 
 # --- MakeMaker pm_to_blib section:
 
